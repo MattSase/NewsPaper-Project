@@ -33,3 +33,126 @@ body{
     padding: 12px 0 12px 0;
 
 }
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    display:inline-block;
+    margin: 30px 2% 0 2%;
+
+}
+
+.column{
+    font-size: 14px;
+    line-height: 20px;
+    width: 30%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+
+.column + .column{
+    border-left: 1px solid #2f2f2f;
+}
+
+.head{
+    text-align: center;
+    position: relative;
+
+
+
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+.column .headline{
+    text-align: center;
+    line-height: normal;
+    font-family:'Playfair Display', serif;
+    display: block;
+    margin: 0 auto;
+
+}
+.column .headline.hl1{
+    font-weight: 700;
+    font-size: 33px;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+
+
+
+}
+
+figure{
+    margin: 20px 0 20px;
+    
+}
+
+figure img{
+    max-width: 100%;
+}
+.column .headline.hl2{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.column .headline.hl2::before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl2:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 13px;
+    display: block;
+    margin: 0 auto;
+
+}
+.quote{
+    font-style: italic;
+    font-size: 13.5px;
+    text-align:  center;
+}
+
+.citation{
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    line-height: 44px;
+    /*font-style: italic;*/
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin: 40px 0 40px 0;
+    font-feature-settings: "liga", "dlig";
+}
+.citation::before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+.citation::after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
