@@ -68,7 +68,11 @@ body{
 p{
     margin-top: 0;
     margin-bottom: 20px;
+    
 
+}
+.indent{
+    text-indent: 40px;
 }
 .column .headline{
     text-align: center;
